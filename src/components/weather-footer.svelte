@@ -1,16 +1,22 @@
+<script>
+	export let humidity = 0;
+	export let windSpeed = 0;
+	export let feelLike = 0;
+</script>
+
 <footer>
 	<div>
-		<span> 33% </span>
+		<span> {humidity} </span>
 		<strong> Humidity </strong>
 	</div>
 
 	<div>
-		<span> 12 km/h </span>
+		<span> {windSpeed} </span>
 		<strong> Windspeed </strong>
 	</div>
 
 	<div>
-		<span> 12° </span>
+		<span> {feelLike}° </span>
 		<strong> Feels like </strong>
 	</div>
 </footer>

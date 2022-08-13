@@ -20,6 +20,8 @@ export async function GET(event) {
 
 	const data = await response.json();
 
+	console.log(data)
+
 	const { location, current } = data;
 	const { country, localtime, name } = location;
 	const { condition, humidity, feelslike_c, is_day, temp_c, wind_kph, wind_dir } = current;

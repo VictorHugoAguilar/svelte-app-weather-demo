@@ -47,7 +47,7 @@
 				</div>					
 				<WeatherIcon text={weather.conditionText} icon={weather.conditionIcon} />
 			</section>
-			<WeatherFooter />
+			<WeatherFooter humidity={weather.humidity} windSpeed={weather.windSpeed} feelLike={weather.feelsLike}/>
 		{/await}
 	</div>
 </div>
